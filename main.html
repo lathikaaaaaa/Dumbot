@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to DumbAI</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            font-family: garamond, sans-serif;
+        }
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center; 
+            animation: fade 20s infinite; 
+        }
+        @keyframes fade {
+            0% { background-image: url("https://i.pinimg.com/564x/63/44/e6/6344e63caf7ed0f5cd3cd11ddc940b76.jpg"); }
+            20% { background-image: url("https://i.pinimg.com/564x/b3/b9/25/b3b925ce6b1782d816c46cb21d5c743c.jpg"); }
+            40% { background-image: url("https://i.pinimg.com/736x/11/de/ef/11deef2c7f6385f3605a53bd885ba130.jpg"); }
+            100% { background-image: url("https://i.pinimg.com/564x/18/9e/ce/189ece9632cb1985a50906a4dcc3b389.jpg"); }
+        }
+        .content {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            color: black;
+            text-align: center;
+            z-index: 1;
+        }
+        .title {
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+        .quote-box {
+            background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent background */
+            padding: 20px;
+            border-radius: 15px;
+        }
+        .button {
+            background-color: transparent;
+            color: #00003e;
+            font-family: garamond, sans-serif;
+            border: 2px solid #00003e;
+            border-radius: 20px;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            margin-left: 10px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .button:hover {
+            background-color: rgba(128, 128, 128, 0.2); /* Turns grey on hover */
+            color: #505050; /* Grey text color on hover */
+        }
+        .quote-button {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="content">
+        <div class="quote-box">
+            <h1 class="title">DumbAI</h1>
+            <h3>"I'm not dumb, I just have selective smartness."</h3>
+        </div>
+        <button class="button quote-button" onclick="location.href='index.html'">Chat with me</button>
+    </div>
+</body>
+</html>
