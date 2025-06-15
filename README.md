@@ -10,6 +10,7 @@ Dumbot is a funny lil chatbot that replies *randomly* to your inputs — kinda l
 
 ## 📁 Project Structure
 Dumbot/
+│
 ├── index.html
 ├── main.html
 ├── index.js
