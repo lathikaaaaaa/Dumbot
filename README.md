@@ -25,8 +25,3 @@ Dumbot/
 - Open `index.html` in your browser
 - Type something like “hi”, “how are you?”, or “tell me a joke”
 - Dumbot replies with chaotic energy 😂
-
-## 🌐 Live Demo
-[Click here to try Dumbot live!](https://lathikaaaaaa.github.io/dumbot)
-
----
